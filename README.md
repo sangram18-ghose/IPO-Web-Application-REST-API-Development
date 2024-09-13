@@ -5,7 +5,7 @@ Setup: Clone repo, install deps, run migrations, start server
 
 Follow these command to run this project:
  git clone 
-https://github.com/sangram18-ghose/IPO-Web-Application-REST-API-Development/invitations
+https://github.com/sangram18-ghose/IPO-Web-Application-REST-API-Development
 
 cd  IPO-Web-Application-REST-API-Development
 
