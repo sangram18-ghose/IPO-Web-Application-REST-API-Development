@@ -14,6 +14,7 @@ cd  IPO-Web-Application-REST-API-Development
  How to connect a Django application to your PostgreSQL database
 
  **Setting Up PostgreSQL Database**
+ ----------------------------------
  
   1. Install PostgreSQL:
  Make sure PostgreSQL is installed on your system. You can download it from the official PostgreSQL
