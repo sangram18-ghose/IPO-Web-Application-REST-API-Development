@@ -33,5 +33,6 @@ cd  IPO-Web-Application-REST-API-Development
  DATABASES = { 'default': { 'ENGINE': 'django.db.backends.postgresql', 'NAME': 'bluestock', 'USER':
  'daiyanalam', 'PASSWORD': '12345', 'HOST': 'localhost', 'PORT': '5432', } }
  Apply Migrations: -->python3 manage.py makemigrations-->python3 manage.py migrate-->python3 manage.py runserver
+ 
  Follow these video link how to connect with postgresql:
  https://drive.google.com/file/d/1jUYqTqp_CTMRYu6FKNIT5327IPQh0fYk/view?usp=sharing
