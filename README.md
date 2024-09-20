@@ -1,6 +1,6 @@
 follow these command to run this project
 
-git clone https://github.com/Vijayvarma115/bluestock-ipo-webapp.git
+git clone https://github.com/sangram18-ghose/IPO-Web-Application-REST-API-Development
 cd bluestock-ipo-webapp
 pip3 install -r requirements.txt
 python3 manage.py makemigrations
