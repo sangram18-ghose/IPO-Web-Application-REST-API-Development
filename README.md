@@ -1,16 +1,39 @@
-follow these command to run this project
+# IPO Web Application REST API Development
 
-git clone https://github.com/sangram18-ghose/IPO-Web-Application-REST-API-Development
-cd bluestock-ipo-webapp
-pip3 install -r requirements.txt
-python3 manage.py makemigrations
-python3 manage.py migrate
-python3 manage.py createsuperuser
-python3 manage.py runserver
+Provides detailed IPO info including company details, pricing, dates, and performance metrics. Features user auth, admin dashboard, and downloadable PDFs.
 
+## Tech Stack
 
+- Python/Django
+- Django REST Framework
+- PostgreSQL
+- HTML/CSS/JavaScript
+- Bootstrap
+- PowerShell
+- Shell
 
-How to connect a Django application to your PostgreSQL database
+## Features
+
+- Detailed IPO information including company details, pricing, dates, and performance metrics.
+- User authentication.
+- Admin dashboard.
+- Downloadable PDFs.
+
+## Setup
+
+### Prerequisites
+
+- Python 3.x
+- PostgreSQL
+- Git
+
+### Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/sangram18-ghose/IPO-Web-Application-REST-API-Development.git
+   cd IPO-Web-Application-REST-API-Development
+   ```
 
 ## Setting Up PostgreSQL Database
 
