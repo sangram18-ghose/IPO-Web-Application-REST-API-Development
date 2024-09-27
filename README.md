@@ -48,21 +48,28 @@ Provides detailed IPO info including company details, pricing, dates, and perfor
    Open your terminal and run the following commands:
 
 
+
+```sql
 CREATE DATABASE bluestock;
 CREATE USER daiyanalam WITH PASSWORD '12345';
 ALTER ROLE daiyanalam SET client_encoding TO 'utf8';
 ALTER ROLE daiyanalam SET default_transaction_isolation TO 'read committed';
 ALTER ROLE daiyanalam SET timezone TO 'UTC';
 GRANT ALL PRIVILEGES ON DATABASE bluestock TO daiyanalam;
+```
 
 
 
-Install PostgreSQL Adapter for Python
 
+3. **Install PostgreSQL Adapter for Python:**
+```sh
 pip install psycopg2-binary
+```
 
 
 
+4. **Configure Django Settings:**
+```sh
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -73,16 +80,19 @@ DATABASES = {
         'PORT': '5432',
     }
 }
-
-Apply Migrations:
-
-python3 manage.py makemigrations
-python3 manage.py migrate
-
-python3 manage.py runserver
+```
 
 
-follow these video link how to connect with postgresql
 
-https://drive.google.com/file/d/1jUYqTqp_CTMRYu6FKNIT5327IPQh0fYk/view?usp=sharing
+5. **Apply Migrations:**
+Run the following commands to apply migrations and start the server:
+```sh
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+```
 
+
+
+5. **6. Video Guide**
+ - [Video Link] (https://drive.google.com/file/d/1jUYqTqp_CTMRYu6FKNIT5327IPQh0fYk/view?usp=)
